@@ -7,10 +7,15 @@ https://github.com/cod3rcursos/knowledge
 1. Install tools
 1. .env file on backend
 
-## Tools
-1. [Mongo DB v7](https://www.mongodb.com/try/download/community)
-    1. **TODO**
-1. Postgres Linux
+## Tools ubuntu0.22.04.1
+1. Mongo DB v7
+    1. **TODO** Install
+        1. https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
+    1. sigin
+        ```
+        sudo mongod
+        ```
+1. psql (PostgreSQL) 14.12
     ```bash
     # apt-get install
     sudo apt-get install postgresql postgresql-contrib 
@@ -29,7 +34,7 @@ https://github.com/cod3rcursos/knowledge
     # show tables
     \dt
     ```
-1. knex
+1. knex 3.1.0
     ```bash
     sudo npm i -g knex
     ```
