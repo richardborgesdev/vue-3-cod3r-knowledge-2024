@@ -34,7 +34,24 @@ https://github.com/cod3rcursos/knowledge
     # show tables
     \dt
     ```
+    1. Create database
+    ```sql
+    CREATE DATABASE knowledge
+    ```
+    1. Connect to created database
+    ```bash
+    \c knowledge 
+    ```
 1. knex 3.1.0
+    1. Install
     ```bash
     sudo npm i -g knex
+    ```
+    1. Init
+    ```bash
+    knext init
+    ```
+    1. Migrate
+    ```bash
+    knext migrate:make create_table_users
     ```
